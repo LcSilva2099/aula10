@@ -1,9 +1,7 @@
 package aula11exceptions.exercicio1
 
-import java.lang.Exception
-
 fun main() {
-    val lista = arrayListOf<String>()
+    val lista = mutableListOf<String>()
 
     lista.add("Pato")
     lista.add("Cachorro")
@@ -15,5 +13,5 @@ fun main() {
         println("Exceção: ${exception.message}")
         println(exception.stackTrace)
     }
-
+    // comentario do matheus teste branch
 }
