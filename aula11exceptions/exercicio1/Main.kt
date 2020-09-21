@@ -7,6 +7,8 @@ fun main() {
     lista.add("Cachorro")
     lista.add("Gato")
 
+    //teste
+
     try {
         println(lista[3])
     } catch (exception: Exception) {
